@@ -1,0 +1,104 @@
+# --- General OS/Editor cruft ---
+.DS_Store
+Thumbs.db
+.icon?
+*.swp
+*.swo
+*.orig
+*.tmp
+~$*
+
+# VS Code / JetBrains
+.vscode/
+.history/
+.idea/
+*.iml
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# Project-specific venv path
+Code_1_stt/STT/sst/
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
+.eggs/
+.wheels/
+
+# Logs & debug
+*.log
+logs/
+nohup.out
+
+# Test/coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.mypy_cache/
+.pyre/
+.pytype/
+
+# Jupyter
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+.jupyter/
+
+# Data/cache
+.cache/
+**/.cache/
+
+# Hugging Face / Transformers caches (optional; uncomment if needed)
+# ~/.cache/huggingface/
+# .huggingface/
+
+# --- Node / Frontend (Vite/React) ---
+node_modules/
+**/node_modules/
+UI/node_modules/
+UI/dist/
+UI/.vite/
+UI/.parcel-cache/
+UI/.eslintcache
+
+# --- Project-specific artifacts ---
+# Whisper/ASR checkpoints (large model files)
+Code_1_stt/STT/checkpoints/
+Code_1_stt/STT/whisper-checkpoints/
+
+# Temporary archives and zips
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
+# Environment / secrets (adjust as needed)
+.env
+.env.*
+*.env
+*.secret
+secrets*/
+
+# macOS/Windows metadata anywhere
+**/.DS_Store
+**/Thumbs.db
+
+# Python notebooks runtime files
+**/.local/share/jupyter/runtime/
+
+# Lock files (optional; keep if you rely on them)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
